@@ -62,11 +62,6 @@ import {
       setLoading(false);
     };
   
-    const logout = () => {
-      checkIfIsCancelled();
-  
-      signOut(auth);
-    };
   
     const login = async (data) => {
       checkIfIsCancelled();
@@ -100,6 +95,11 @@ import {
   
       setLoading(false);
     };
+    //logout
+    const logout = () => {
+      checkIfIsCancelled()
+      signOut(auth)
+    }
   
     useEffect(() => {
       return () => setCancelled(true);
@@ -112,5 +112,6 @@ import {
       logout,
       login,
       loading,
+      
     };
   };
