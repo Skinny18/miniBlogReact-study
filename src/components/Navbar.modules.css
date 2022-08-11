@@ -1,3 +1,31 @@
+@media screen and (max-width: 600px) {
+    .navbar{   
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .brand{
+        font-size: 0.2em;
+    }
+
+    .brand span{
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .links_list{
+        margin-right: 0px;
+        list-style: none;
+        flex-wrap: wrap-reverse;
+        margin: 10px;
+    }
+    
+   
+    
+    
+    
+
+}
+
 .navbar{
     display: flex;
     box-shadow: rgba(0,0,0,0.15) 0px -2px 10px 0px;
