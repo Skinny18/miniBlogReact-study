@@ -63,7 +63,7 @@ const Register = () => {
 
             <label>
                 <span>Confirme sua senha:</span>
-                <input value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} type="password" name="confirmPassword" required placeholder="Repita do usuário"/>
+                <input value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} type="password" name="confirmPassword" required placeholder="Repita sua senha"/>
             </label>
             {!loading &&<button className="btn">Cadastrar</button>}
             {loading && <button className="btn" disable>Aguarde...</button>}
